@@ -1,11 +1,11 @@
 # DBS-eval 
-The following repository contains the corpus of PYRAMID annotations, which were created on top of the DBS corpus (https://github.com/AIPHES/DBS).
+This repository contains a corpus of PYRAMID annotations from three to four manual summaries of ten topics carried out by three annotators from the field of computational linguistics and linguistics. Each topic contains four to 16 documents per cluster. The annotations are created on top of the DBS corpus published by Benikova et al. (2016) (https://github.com/AIPHES/DBS).
 
 ### The Corpus
-The source documents for DBS-eval as well as the manual summaries and several other automatic summaries can be found in https://github.com/AIPHES/DBS.
+The manual summaries from the pyramids in DBS-eval as well as source documents and several other automatic summaries can be found in the DBS corpus in https://github.com/AIPHES/DBS.
 Included in the `Pyramids` folder are pyramids (.pyr files) for ten topics by three annotators.
-Inlcuded in the `Automatic_summaries` folder are the automatic summaries, which were scored against these PYRAMID files.
-Included in the `Pans` folder are the .pan files for each automatic summary, which was scored against the pyramids, for each of the three annotators.
+Included in the `Automatic_summaries` folder are the automatic summaries, which were evaluated against these PYRAMID files.
+Included in the `Pans` folder are the .pan files for each automatic summary, which was evaluated against the pyramids, for each of the three annotators.
 The filenames contain the topic ID (1-10), the topic name and except for .pyr files the name of the summary system (lex, lsa, mz, text). The .pyr and .pan files also contain the ID of the annotator (a1, a2, a3).
 
 
